@@ -1,0 +1,718 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pozu8/ontologies/2022/3/squid_game"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pozu8/ontologies/2022/3/squid_game">
+    <Prefix name="" IRI="http://www.semanticweb.org/pozu8/ontologies/2022/3/squid_game"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>This ontology  it is about tv show &quot;Squid Game&quot;.
+Created by Guillermo Efrén Antonio González and Verónica Pozuelo Requena.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crystal_stones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Day"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Games"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gganbu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honeycomb_man"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horror"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Month"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Netflix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Player"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red_light_green_light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Release_Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Retired"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rope_game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squid_Game_Winner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Squid_game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Status_Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Survivalism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Team_Producer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VIP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Year"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPerformedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlayed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStatus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEpisodes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPlayers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chapter_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chapter_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chuau_Lee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heo_Sung-tae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hwang_Dong-hyuk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lee_Jung-jae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Park_Hae-soo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ping_Pong_Chung"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#September"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wi_Ha-joon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2021"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Character"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Character"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPerformedBy"/>
+            <Class IRI="#Actor"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Squid_Game_Winner"/>
+        <Class IRI="#VIP"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Squid_game"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasWon"/>
+            <Class IRI="#Player"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Actor"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crystal_stones"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Day"/>
+        <Class IRI="#Release_Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dead"/>
+        <Class IRI="#Status_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Director"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drama"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gganbu"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guard"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeycomb_man"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horror"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Month"/>
+        <Class IRI="#Release_Date"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Netflix"/>
+        <Class IRI="#Platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Player"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red_light_green_light"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Retired"/>
+        <Class IRI="#Status_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rope_game"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season_1"/>
+        <Class IRI="#Season"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squid_Game_Winner"/>
+        <Class IRI="#Status_Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squid_game"/>
+        <Class IRI="#Games"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Survivalism"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Team_Producer"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thriller"/>
+        <Class IRI="#Genre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VIP"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Year"/>
+        <Class IRI="#Release_Date"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Dead"/>
+        <Class IRI="#Squid_Game_Winner"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Guard"/>
+        <Class IRI="#Player"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Retired"/>
+        <Class IRI="#Squid_Game_Winner"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Season_1"/>
+        <NamedIndividual IRI="#Chapter_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Season_1"/>
+        <NamedIndividual IRI="#Chapter_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Team_Producer"/>
+        <NamedIndividual IRI="#Chuau_Lee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Heo_Sung-tae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dead"/>
+        <NamedIndividual IRI="#Heo_Sung-tae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Heo_Sung-tae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Director"/>
+        <NamedIndividual IRI="#Hwang_Dong-hyuk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Lee_Jung-jae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Squid_Game_Winner"/>
+        <NamedIndividual IRI="#Lee_Jung-jae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Park_Hae-soo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dead"/>
+        <NamedIndividual IRI="#Park_Hae-soo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Park_Hae-soo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Guard"/>
+        <NamedIndividual IRI="#Ping_Pong_Chung"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Month"/>
+        <NamedIndividual IRI="#September"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Actor"/>
+        <NamedIndividual IRI="#Wi_Ha-joon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other"/>
+        <NamedIndividual IRI="#Wi_Ha-joon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Day"/>
+        <NamedIndividual IRI="#17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Year"/>
+        <NamedIndividual IRI="#2021"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLost"/>
+        <ObjectProperty IRI="#hasWon"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLost"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPerformedBy"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStatus"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWon"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLost"/>
+        <Class IRI="#Games"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPerformedBy"/>
+        <Class IRI="#Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlayed"/>
+        <Class IRI="#Games"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStatus"/>
+        <Class IRI="#Status_Game"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWon"/>
+        <Class IRI="#Games"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasEpisodes"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasName"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasEpisodes"/>
+        <Class IRI="#Season"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasName"/>
+        <Class IRI="#Character"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPlayers"/>
+        <Class IRI="#Games"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEpisodes"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPlayers"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Player"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasWon"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#y"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#Squid_game"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Squid_Game_Winner"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Player"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasLost"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#y"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Dead"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Squid_Game_Winner"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#VIP"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Actor</IRI>
+        <Literal>Actors involved</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Character</IRI>
+        <Literal>Different characters inside the TV Show interpreted by the actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crystal_stones</IRI>
+        <Literal>Game of &quot;Crystal Stones&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Day</IRI>
+        <Literal>Day of the date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dead</IRI>
+        <Literal>Players dead</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Director</IRI>
+        <Literal>Director of the TV Show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drama</IRI>
+        <Literal>Genre of drama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Games</IRI>
+        <Literal>Differents games inside The Squid Games</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Genre</IRI>
+        <Literal>Differents types of genre of the TV show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gganbu</IRI>
+        <Literal>Game of &quot;Gganbu&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Guard</IRI>
+        <Literal>Character of guard interpreted by the actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Honeycomb_man</IRI>
+        <Literal>Game of &quot;Honeycomb man&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Horror</IRI>
+        <Literal>Genre of horror</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Hwang_Dong-hyuk</IRI>
+        <Literal>https://dbpedia.org/page/Hwang_Dong-hyuk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Lee_Jung-jae</IRI>
+        <Literal>https://dbpedia.org/page/Lee_Jung-jae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Month</IRI>
+        <Literal>Month of the date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Other</IRI>
+        <Literal>Other characters interpreted by the actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal>Different people involved in the development of the TV Show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Platform</IRI>
+        <Literal>Platform in charge of the distribution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Player</IRI>
+        <Literal>Character of player interpreted by the actors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Red_light_green_light</IRI>
+        <Literal>Game of &quot;Red light, green light&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Release_Date</IRI>
+        <Literal>Release date of the TV Show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Retired</IRI>
+        <Literal>Players retired</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rope_game</IRI>
+        <Literal>Game of &quot;Rope game&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Season</IRI>
+        <Literal>Different seassons of the TV Show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Season_1</IRI>
+        <Literal>Season 1 of the TV Show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Squid_Game_Winner</IRI>
+        <Literal>Winner of the final game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Squid_game</IRI>
+        <Literal>Final game &quot;Squid Game&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Status_Game</IRI>
+        <Literal>Differents status inside the TV show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Survivalism</IRI>
+        <Literal>Genre of survivalism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Team_Producer</IRI>
+        <Literal>Team Producer of the TV Show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thriller</IRI>
+        <Literal>Genre of thriller</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VIP</IRI>
+        <Literal>Very Important Person inside the game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:sameAs"/>
+        <IRI>#Wi_Ha-joon</IRI>
+        <Literal>https://dbpedia.org/page/Wi_Ha-joon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Year</IRI>
+        <Literal>Year of the date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEpisodes</IRI>
+        <Literal>Number of episodes in the season</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasName</IRI>
+        <Literal>Name of the character in the TV Show</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPlayers</IRI>
+        <Literal>Number of players of the game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal>https://dbpedia.org/page/Squid_Game</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
